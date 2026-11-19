@@ -33,7 +33,7 @@ export default function Home() {
       {/* Home Page */}
       {page === "home" && (
         <div>
-          <h2>Welcome TO PESU</h2>
+          <h2>Welcome</h2>
           <p>Welcome to Student Management System.</p>
         </div>
       )}
