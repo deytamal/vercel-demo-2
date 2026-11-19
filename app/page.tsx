@@ -25,7 +25,7 @@ export default function Home() {
 
       {/* Navigation */}
       <button onClick={() => setPage("home")}>Home</button>{" "}
-      <button onClick={() => setPage("students")}>Students</button>{" "}
+<button onClick={() => setPage("students")}>Students</button>{" "}
       <button onClick={() => setPage("about")}>About</button>
 
       <hr />
@@ -33,7 +33,7 @@ export default function Home() {
       {/* Home Page */}
       {page === "home" && (
         <div>
-          <h2>Welcome</h2>
+          <h2>Welcome to PES University</h2>
           <p>Welcome to Student Management System.</p>
         </div>
       )}
